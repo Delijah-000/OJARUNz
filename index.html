@@ -1,0 +1,553 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>OJARUNz | Personal Shopping & Procurement</title>
+    <meta
+      name="description"
+      content="OJARUNz helps busy customers source groceries, household items, clothing, and other essentials through a convenient personal shopping and delivery service."
+    />
+    <meta property="og:title" content="OJARUNz | You Need It. We Get It." />
+    <meta
+      property="og:description"
+      content="Tell us what you need and let OJARUNz source it for you with easy WhatsApp ordering and reliable delivery."
+    />
+    <meta property="og:type" content="website" />
+    <meta property="og:image" content="https://images.unsplash.com/photo-1542838132-92c53300491e?auto=format&fit=crop&w=1200&q=80" />
+    <meta property="og:image:alt" content="A person shopping for groceries and household essentials" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Cormorant+Garamond:wght@500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <nav class="navbar navbar-expand-lg">
+        <div class="container">
+          <a class="navbar-brand" href="#home" aria-label="OJARUNz home">
+            <span class="brand-mark">O</span>
+            <span class="brand-text">
+              <span class="brand-name">OJARUNz</span>
+              <small>Procurement Service</small>
+            </span>
+          </a>
+
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#mainNav"
+            aria-controls="mainNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <div class="collapse navbar-collapse" id="mainNav">
+            <ul class="navbar-nav mx-auto">
+              <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
+              <li class="nav-item"><a class="nav-link" href="#how-it-works">How It Works</a></li>
+              <li class="nav-item"><a class="nav-link" href="#what-we-get">What We Get</a></li>
+              <li class="nav-item"><a class="nav-link" href="#about">About Us</a></li>
+              <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+            </ul>
+
+            <a
+              href="#"
+              class="btn btn-primary whatsapp-link nav-cta"
+              data-message="Hello OJARUNz, I would like to place a shopping request."
+            >
+              Order on WhatsApp
+            </a>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <section id="home" class="hero-section">
+        <div class="hero-bg"></div>
+        <div class="container">
+          <div class="row align-items-center g-5">
+            <div class="col-lg-6 hero-copy reveal">
+              <span class="section-kicker">Personal shopping partner</span>
+              <h1>You Need It. We Get It.</h1>
+              <p>
+                Too busy to shop? OJARUNz makes shopping simple. Tell us what you need,
+                and we'll source it for you and arrange delivery.
+              </p>
+              <div class="hero-actions d-flex flex-wrap gap-3 align-items-center">
+                <a
+                  href="#"
+                  class="btn btn-primary btn-lg whatsapp-link"
+                  data-message="Hello OJARUNz, I would like to make a shopping request. Here is my list:"
+                >
+                  Order on WhatsApp
+                </a>
+                <a href="#how-it-works" class="btn btn-secondary btn-lg scroll-link">How It Works</a>
+              </div>
+              <div class="hero-meta d-flex flex-wrap gap-3 mt-4">
+                <span><i class="bi bi-bag-check"></i> Groceries & essentials</span>
+                <span><i class="bi bi-truck"></i> Delivery handled</span>
+              </div>
+            </div>
+
+            <div class="col-lg-6 reveal reveal-delay">
+              <div class="hero-visual">
+                <img
+                  src="https://images.unsplash.com/photo-1542838132-92c53300491e?auto=format&fit=crop&w=1200&q=80"
+                  alt="A person receiving groceries and shopping items from a personal shopper"
+                  loading="eager"
+                />
+                <div class="floating-card card-one">
+                  <span class="mini-label">Easy ordering</span>
+                  <strong>Send your list</strong>
+                </div>
+                <div class="floating-card card-two">
+                  <span class="mini-label">Fast service</span>
+                  <strong>We shop & deliver</strong>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="how-it-works" class="section-block">
+        <div class="container">
+          <div class="section-heading text-center reveal">
+            <span class="section-kicker">How it works</span>
+            <h2>Simple steps. Stress-free shopping.</h2>
+          </div>
+
+          <div class="row g-4 mt-5">
+            <div class="col-md-4 reveal">
+              <div class="info-card step-card">
+                <div class="icon-wrap">
+                  <i class="bi bi-chat-square-text"></i>
+                </div>
+                <span class="step-no">01</span>
+                <h3>Tell Us What You Need</h3>
+                <p>Send your shopping list to OJARUNz through WhatsApp or phone.</p>
+              </div>
+            </div>
+
+            <div class="col-md-4 reveal">
+              <div class="info-card step-card">
+                <div class="icon-wrap">
+                  <i class="bi bi-basket3"></i>
+                </div>
+                <span class="step-no">02</span>
+                <h3>We Shop For You</h3>
+                <p>We source and purchase the items you requested with care and attention.</p>
+              </div>
+            </div>
+
+            <div class="col-md-4 reveal">
+              <div class="info-card step-card">
+                <div class="icon-wrap">
+                  <i class="bi bi-truck"></i>
+                </div>
+                <span class="step-no">03</span>
+                <h3>We Deliver</h3>
+                <p>Your items are prepared and delivered to your preferred location.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="what-we-get" class="section-block alt-bg">
+        <div class="container">
+          <div class="section-heading reveal">
+            <span class="section-kicker">What we get</span>
+            <h2>What We Can Get For You</h2>
+          </div>
+
+          <div class="row g-4 mt-5">
+            <div class="col-lg-4 col-md-6 reveal">
+              <article class="category-card">
+                <img
+                  src="https://images.unsplash.com/photo-1542838132-92c53300491e?auto=format&fit=crop&w=900&q=80"
+                  alt="Food and provisions including rice, beans and groceries"
+                  loading="lazy"
+                />
+                <div class="category-content">
+                  <h3>Food & Provisions</h3>
+                  <p>Rice, beans, garri, sugar, beverages, cooking ingredients, and other provisions.</p>
+                </div>
+              </article>
+            </div>
+
+            <div class="col-lg-4 col-md-6 reveal">
+              <article class="category-card">
+                <img
+                  src="https://images.unsplash.com/photo-1586201375761-83865001e31c?auto=format&fit=crop&w=900&q=80"
+                  alt="Grains and household staples in a kitchen pantry"
+                  loading="lazy"
+                />
+                <div class="category-content">
+                  <h3>Grains & Staples</h3>
+                  <p>Rice, beans, garri, flour, grains, and other household staples.</p>
+                </div>
+              </article>
+            </div>
+
+            <div class="col-lg-4 col-md-6 reveal">
+              <article class="category-card">
+                <img
+                  src="https://images.unsplash.com/photo-1529139574466-a303027c1d8b?auto=format&fit=crop&w=900&q=80"
+                  alt="Clothing and fashion items for personal shopping"
+                  loading="lazy"
+                />
+                <div class="category-content">
+                  <h3>Clothing & Fashion</h3>
+                  <p>Clothing, accessories, footwear, and other fashion items.</p>
+                </div>
+              </article>
+            </div>
+
+            <div class="col-lg-4 col-md-6 reveal">
+              <article class="category-card">
+                <img
+                  src="https://images.unsplash.com/photo-1556911220-bff31c812dba?auto=format&fit=crop&w=900&q=80"
+                  alt="Kitchen and household supplies for everyday use"
+                  loading="lazy"
+                />
+                <div class="category-content">
+                  <h3>Kitchen & Household</h3>
+                  <p>Kitchen utensils, cookware, household supplies, and useful home items.</p>
+                </div>
+              </article>
+            </div>
+
+            <div class="col-lg-4 col-md-6 reveal">
+              <article class="category-card">
+                <img
+                  src="https://images.unsplash.com/photo-1483985988355-763728e1935b?auto=format&fit=crop&w=900&q=80"
+                  alt="General market shopping essentials and everyday goods"
+                  loading="lazy"
+                />
+                <div class="category-content">
+                  <h3>General Market Items</h3>
+                  <p>Other everyday goods and materials customers may need.</p>
+                </div>
+              </article>
+            </div>
+
+            <div class="col-lg-4 col-md-6 reveal">
+              <article class="category-card special-card">
+                <div class="category-content special-content">
+                  <span class="section-kicker">Something else?</span>
+                  <h3>Need something specific?</h3>
+                  <p>If you don't see what you need here, just ask us. We'll do our best to source it for you.</p>
+                  <a
+                    href="#"
+                    class="btn btn-primary whatsapp-link"
+                    data-message="Hello OJARUNz, I need help sourcing an item that is not listed here."
+                  >
+                    Ask OJARUNz
+                  </a>
+                </div>
+              </article>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="shopping-callout">
+        <div class="container">
+          <div class="row align-items-center g-4 reveal">
+            <div class="col-lg-8">
+              <span class="section-kicker">shopping list service</span>
+              <h2>Give Us Your List. We'll Handle the Rest.</h2>
+              <p>
+                Whether it's groceries, household supplies, clothing, or something specific,
+                simply send us your list and let OJARUNz take care of the shopping.
+              </p>
+            </div>
+            <div class="col-lg-4 text-lg-end">
+              <a
+                href="#"
+                class="btn btn-primary btn-lg whatsapp-link shopping-btn"
+                data-message="Hello OJARUNz, I would like to make a shopping request. Here is my list:"
+              >
+                Send Your List on WhatsApp
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section-block">
+        <div class="container">
+          <div class="section-heading text-center reveal">
+            <span class="section-kicker">Why choose us</span>
+            <h2>Why Choose OJARUNz</h2>
+          </div>
+
+          <div class="row g-4 mt-5">
+            <div class="col-md-6 col-lg-4 reveal">
+              <div class="feature-card">
+                <i class="bi bi-clock-history"></i>
+                <h3>Save Time</h3>
+                <p>No need to spend hours shopping.</p>
+              </div>
+            </div>
+            <div class="col-md-6 col-lg-4 reveal">
+              <div class="feature-card">
+                <i class="bi bi-geo-alt"></i>
+                <h3>Convenience</h3>
+                <p>Tell us what you need from wherever you are.</p>
+              </div>
+            </div>
+            <div class="col-md-6 col-lg-4 reveal">
+              <div class="feature-card">
+                <i class="bi bi-shield-check"></i>
+                <h3>Reliable Service</h3>
+                <p>We take your shopping request seriously.</p>
+              </div>
+            </div>
+            <div class="col-md-6 col-lg-4 reveal">
+              <div class="feature-card">
+                <i class="bi bi-bag-heart"></i>
+                <h3>Wide Range</h3>
+                <p>From groceries to household and personal items.</p>
+              </div>
+            </div>
+            <div class="col-md-6 col-lg-4 reveal">
+              <div class="feature-card">
+                <i class="bi bi-chat-dots"></i>
+                <h3>Easy Communication</h3>
+                <p>Reach us quickly through WhatsApp or phone.</p>
+              </div>
+            </div>
+            <div class="col-md-6 col-lg-4 reveal">
+              <div class="feature-card">
+                <i class="bi bi-person-hearts"></i>
+                <h3>Personal Service</h3>
+                <p>Your shopping request is handled with care.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="about" class="section-block alt-bg about-section">
+        <div class="container">
+          <div class="row align-items-center g-5">
+            <div class="col-lg-6 reveal">
+              <div class="about-image-wrap">
+                <img
+                  src="https://images.unsplash.com/photo-1529156069898-49953e39b3ac?auto=format&fit=crop&w=1200&q=80"
+                  alt="A person receiving groceries and shopping items from a personal shopper"
+                  loading="lazy"
+                />
+              </div>
+            </div>
+            <div class="col-lg-6 reveal">
+              <span class="section-kicker">About OJARUNz</span>
+              <h2>Shopping Made Easier.</h2>
+              <p>
+                OJARUNz was created to make everyday shopping more convenient for people who are busy,
+                unavailable, or simply prefer to have someone handle the shopping for them.
+              </p>
+              <p>
+                We focus on the values that matter most to customers: <strong>Convenience.</strong>
+                <strong> Reliability.</strong> <strong>Time-saving.</strong>
+                <strong> Personal service.</strong>
+              </p>
+              <div class="about-points">
+                <span>Convenience</span>
+                <span>Reliability</span>
+                <span>Time-saving</span>
+                <span>Personal service</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section-block trust-section">
+        <div class="container">
+          <div class="section-heading text-center reveal">
+            <span class="section-kicker">Trust</span>
+            <h2>Your Needs. Our Responsibility.</h2>
+          </div>
+
+          <div class="row g-4 mt-5">
+            <div class="col-md-6 col-lg-3 reveal">
+              <div class="trust-card">
+                <i class="bi bi-earbuds"></i>
+                <p>We listen to your needs.</p>
+              </div>
+            </div>
+            <div class="col-md-6 col-lg-3 reveal">
+              <div class="trust-card">
+                <i class="bi bi-basket2"></i>
+                <p>We source with care.</p>
+              </div>
+            </div>
+            <div class="col-md-6 col-lg-3 reveal">
+              <div class="trust-card">
+                <i class="bi bi-chat-left-text"></i>
+                <p>We communicate clearly.</p>
+              </div>
+            </div>
+            <div class="col-md-6 col-lg-3 reveal">
+              <div class="trust-card">
+                <i class="bi bi-heart-handshake"></i>
+                <p>We prioritize customer satisfaction.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="contact" class="section-block contact-section">
+        <div class="container">
+          <div class="section-heading reveal">
+            <span class="section-kicker">Contact</span>
+            <h2>Ready to Let Us Shop For You?</h2>
+            <p>Tell us what you need and let OJARUNz take care of the shopping.</p>
+          </div>
+
+          <div class="row g-4 mt-3 align-items-start">
+            <div class="col-lg-5 reveal">
+              <div class="contact-panel">
+                <div class="contact-actions d-flex flex-wrap gap-3">
+                  <a href="#" class="btn btn-primary whatsapp-link" data-message="Hello OJARUNz, I would like to place a shopping order.">
+                    <i class="bi bi-whatsapp"></i> Order on WhatsApp
+                  </a>
+                  <a href="tel:+2348161234437" class="btn btn-secondary call-link">
+                    <i class="bi bi-telephone"></i> Call OJARUNz
+                  </a>
+                </div>
+                <div class="contact-details mt-4">
+                  <div class="detail-item">
+                    <i class="bi bi-whatsapp"></i>
+                    <div>
+                      <small>WhatsApp</small>
+                      <strong>09085911166</strong>
+                    </div>
+                  </div>
+                  <div class="detail-item">
+                    <i class="bi bi-telephone"></i>
+                    <div>
+                      <small>Phone</small>
+                      <strong>08161234437</strong>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-7 reveal">
+              <form id="contactForm" class="contact-form" novalidate>
+                <div class="row g-3">
+                  <div class="col-md-6">
+                    <label for="name">Name</label>
+                    <input id="name" name="name" type="text" placeholder="Your full name" required />
+                  </div>
+
+                  <div class="col-md-6">
+                    <label for="phone">Phone Number</label>
+                    <input id="phone" name="phone" type="tel" placeholder="e.g. 0801 234 5678" required />
+                  </div>
+
+                  <div class="col-12">
+                    <label for="needs">What do you need?</label>
+                    <textarea id="needs" name="needs" rows="4" placeholder="List the items or products you need" required></textarea>
+                  </div>
+
+                  <div class="col-12">
+                    <label for="location">Preferred delivery location</label>
+                    <input id="location" name="location" type="text" placeholder="Your area or delivery address" required />
+                  </div>
+
+                  <div class="col-12">
+                    <label for="message">Additional message</label>
+                    <textarea id="message" name="message" rows="3" placeholder="Add any details you’d like us to know"></textarea>
+                  </div>
+                </div>
+
+                <div class="form-actions d-flex flex-wrap align-items-center gap-3 mt-4">
+                  <button type="submit" class="btn btn-primary btn-lg">Send Request</button>
+                  <span id="formSuccess" class="form-success" aria-live="polite"></span>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container">
+        <div class="row g-4 align-items-center">
+          <div class="col-lg-4">
+            <a href="#home" class="footer-brand" aria-label="OJARUNz home">
+              <span class="brand-mark">O</span>
+              <span class="brand-text">
+                <span class="brand-name">OJARUNz</span>
+              </span>
+            </a>
+            <p class="footer-tagline">You Need It. We Get It.</p>
+          </div>
+
+          <div class="col-lg-4">
+            <ul class="footer-nav list-unstyled d-flex flex-wrap gap-3 justify-content-lg-center">
+              <li><a href="#home">Home</a></li>
+              <li><a href="#how-it-works">How It Works</a></li>
+              <li><a href="#what-we-get">What We Get</a></li>
+              <li><a href="#about">About</a></li>
+              <li><a href="#contact">Contact</a></li>
+            </ul>
+          </div>
+
+          <div class="col-lg-4">
+            <div class="footer-contact">
+              <p>WhatsApp-09085911166</p>
+              <p>Phone-08161234437</p>
+              <div class="socials" aria-label="Social media links placeholder">
+                <a href="#" aria-label="Instagram placeholder"><i class="bi bi-instagram"></i></a>
+                <a href="#" aria-label="Facebook placeholder"><i class="bi bi-facebook"></i></a>
+                <a href="#" aria-label="X placeholder"><i class="bi bi-twitter-x"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="footer-bottom">
+          <p>© 2026 OJARONS. All Rights Reserved.</p>
+        </div>
+      </div>
+    </footer>
+
+    <a
+      href="#"
+      class="floating-whatsapp whatsapp-link"
+      aria-label="Chat on WhatsApp"
+      data-message="Hello OJARUNz, I would like to make a shopping request."
+    >
+      <i class="bi bi-whatsapp"></i>
+    </a>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
